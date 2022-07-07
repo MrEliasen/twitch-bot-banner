@@ -1,0 +1,5 @@
+{
+    "client_id": "r1933h5p34k6doj3ltpe3gxop0kl1t",
+    "redirect_uri": "https://ban-twitch-bots.sirmre.com/auth",
+    "scope": "chat:read chat:edit channel:moderate"
+}

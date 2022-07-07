@@ -1,0 +1,43 @@
+.content-wrapper {
+    margin-top: 20px;
+}
+
+.bot-status {
+    &.--banned {
+        background: red;
+    }
+    &.--success {
+        background: green;
+    }
+}
+
+.banning-progress {
+    margin-bottom: 20px;
+}
+
+.c-lists {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+
+    .c-list {
+        width: 50%;
+        margin-left: 7px;
+
+        &:first-child {
+            margin-right: 7px;
+        }
+        &:last-child {
+            margin-left: 7px;
+        }
+
+        nav {
+             max-height: 33vh;
+             overflow-y: auto;
+        }
+    }
+}
+
+.ban-button {
+    text-align: center;
+}
